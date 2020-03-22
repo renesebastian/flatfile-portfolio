@@ -1,0 +1,1 @@
+<p class="text-small cl-textSoft hidden-on-mobile">Rene Sebastian 2009 - <?php echo date('Y'); ?> <?php echo siteFooter; ?></p>
