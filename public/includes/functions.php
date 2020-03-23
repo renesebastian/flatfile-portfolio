@@ -14,8 +14,8 @@
                         ?>
                             <li>
                                 <a href="/<?php echo siteCollectionSlug.'/'.$collectionData->slug; ?>" title="<?php echo $collection->title; ?>">
-                                    <div class="aspect-lock">
-                                        <img class="ratio" src="<?php echo cdnUrl; ?>?src=collections/<?php echo $collectionData->slug; ?>/cover.jpg&width=640">
+                                    <div class="aspect-lock show">
+                                        <img class="lazy ratio" src="<?php echo cdnUrl; ?>?src=collections/<?php echo $collectionData->slug; ?>/cover.jpg&width=160" data-src="<?php echo cdnUrl; ?>?src=collections/<?php echo $collectionData->slug; ?>/cover.jpg&width=640" alt="<?php echo $collection->title; ?>" title="<?php echo $collection->title; ?>">
                                         <div class="overlay look"></div>
                                         <h3><?php echo $collection->title; ?></h3>
                                     </div>
