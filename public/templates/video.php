@@ -1,5 +1,5 @@
 <div class="container contentpage">
-    <h1><?php echo $videoTitle; ?></h1>
+    <h1> <?php if($videoCategory){ echo $videoCategory.': '; }?><?php echo $videoTitle; ?></h1>
     <?php if($clientName){ ?><div class="meta"><?php echo $pageH1.' '.$clientName; ?></div><?php } ?>
     <p class="lg"><?php echo $videoContent; ?></p>
 

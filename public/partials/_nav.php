@@ -8,7 +8,7 @@
             if($menuLoop->showMenu){         
                 foreach($menuLoop->languages->language as $menuItem){
                     if($menuItem->lang == siteLang){
-                        echo '<li><a href="index.php?page='.$menuLoop->id.'" title="'.$menuItem->menuTitle.'">'.$menuItem->menuName.'</a></li>';
+                        echo '<li><a href="/'.$menuItem->slug.'" title="'.$menuItem->menuTitle.'">'.$menuItem->menuName.'</a></li>';
                     }   
                 }
             }
