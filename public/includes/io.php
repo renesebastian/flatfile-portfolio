@@ -158,6 +158,9 @@ if($pageData = array_shift(array_filter($essentials->pages->page, function($e)
                     $videoRelease = $videosOb->release;
                     $videoClient = $videoOb->client;
                     $videoCategory = $video->category;
+                    if($videoOb->complementaryId){ $videoComplementaryId = $videoOb->complementaryId; }
+                    if($video->complementaryTitle){ $videoComplementaryTitle = $video->complementaryTitle; }
+                    if($video->complementaryContent){ $videoComplementaryContent = $video->complementaryContent; }
                     
                     //and fetch some client info as wel
                     if($videoClient){
