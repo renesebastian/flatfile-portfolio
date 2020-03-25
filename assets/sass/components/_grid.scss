@@ -1,0 +1,120 @@
+body {
+  position: relative;
+  font-family: poynter-gothic-text, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  background-color: white;
+}
+
+//main nav / sidebar, nothing special here.
+nav {
+  position: fixed;
+  width: 240px;
+  height: 100%;
+  padding: $spacer * 4;
+  a {
+    img {
+      width: auto;
+      height: 28px;
+      margin-top: 10px;
+      margin-bottom: $spacer * 2;
+    }
+  }
+
+  ul {
+    li {
+      margin-bottom: $spacer;
+      &.small {
+        margin-bottom: $spacer/2;
+        font-size: 12px;
+        a {
+          color: map-get($colors, "textSoft");
+          &:hover {
+            color: map-get($colors, "textStandard");
+          }
+        }
+      }
+    }
+  }
+
+  //when the screen gets to small, adjust width and spacing of nav
+  @media only screen and (max-width: 930px) {
+    width: 180px;
+    padding: $spacer * 2;
+  }
+  //switch to mobile layout
+  @media only screen and (max-width: 640px) {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    padding: $spacer;
+    a img {
+      position: absolute;
+      top: 10px;
+      left: $spacer;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    ul {
+      display: block;
+      float: right;
+      text-align: left;
+      margin-top: 5px;
+      li {
+        margin-bottom: 0;
+        margin-left: $spacer;
+        display: inline-block;
+        &.small {
+          display: none;
+        }
+      }
+    }
+    &:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  }
+}
+
+.container {
+  max-width: $max-container;
+  margin-left: 240px;
+  padding: $spacer * 4;
+
+  //when the screen gets to small, adjust margin and spacing of container
+  @media only screen and (max-width: 930px) {
+    margin-left: 180px;
+    padding: $spacer * 2;
+  }
+
+  //switch to mobile layout
+  @media only screen and (max-width: 640px) {
+    width: 100%;
+    margin: 0;
+    padding: $spacer;
+  }
+
+  &.breakout {
+    max-width: 1680px;
+  }
+}
+
+//some max width presets
+.xl {
+  max-width: $max-xl;
+}
+
+.lg {
+  max-width: $max-lg;
+}
+
+.md {
+  max-width: $max-md;
+}
+
+.sm {
+  max-width: $max-sm;
+}

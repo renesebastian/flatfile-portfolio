@@ -1,0 +1,36 @@
+//some variables to make deving a bit easier, no magic here.
+$spacer: 0.8rem !default;
+
+$max-container: 1410px;
+$max-xl: 1160px;
+$max-lg: 880px;
+$max-md: 600px;
+$max-sm: 480px;
+
+//base title sizes
+$titles: (
+  1: 36px,
+  2: 28px,
+  3: 22px,
+  4: 16px,
+  5: 16px,
+  6: 16px
+);
+
+//base color scheme
+$colors: (
+  "link": #333,
+  "linkHover": #1c8a86,
+  "linkActive": #1c8a86,
+  "textTitle": #000,
+  "textStandard": #333,
+  "textSoft": #95a5a6,
+  "border": #e2e2e2
+);
+
+//make each color available with .cl-#name
+@each $name, $color in $colors {
+  .cl-#{$name} {
+    color: $color !important;
+  }
+}

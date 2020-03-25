@@ -1,52 +1,50 @@
 var webpack = require("webpack");
 
 module.exports = function(env) {
-  
-  const CleanWebpackPlugin = require('clean-webpack-plugin');
+  //load plugins
+  const CleanWebpackPlugin = require("clean-webpack-plugin");
+  const CopyWebpackPlugin = require("copy-webpack-plugin");
   const ExtractTextPlugin = require("extract-text-webpack-plugin");
-  
-  //first clean up public js and css folders
-  const pathsToClean = [
-    __dirname + '/public/js',
-    __dirname + '/public/css'
-  ];
 
+  //declear folders that need to be cleaned up before compiling
+  const pathsToClean = [__dirname + "/public/css"];
+
+  //cleanup options
   const cleanOptions = {
     verbose: true,
     dry: false
   };
 
   const plugins = [
-      new CleanWebpackPlugin(pathsToClean, cleanOptions),
-      new ExtractTextPlugin({ 
-          filename: "../css/mq.css" 
-      })
+    //time to clean up!
+    new CleanWebpackPlugin(pathsToClean, cleanOptions),
+
+    //and write the compliled sass file to a specific folder
+    new ExtractTextPlugin({
+      filename: "../css/rene-io-20.css"
+    })
   ];
 
   return {
-    //config input files (js and scss can be combined)
+    //config input files
     entry: {
-        'mq': [
-            __dirname + "/assets/js/mq.js",
-            __dirname + "/assets/sass/mq.scss"
-        ],
-    } ,
+      reneio: [__dirname + "/assets/sass/reneio.scss"]
+    },
 
-    //entry point webpack app:
+    //entry point voor webpack app (if global js is needed):
     output: {
-        path: __dirname + "/public/js",
-        filename: "[name].js"
+      path: __dirname + "/public/js",
+      filename: "[name].js"
     },
 
     module: {
       rules: [
         {
-          //regex so it can handle both css and scss
           test: /\.(s*)css$/,
           use: ExtractTextPlugin.extract({
             fallback: "style-loader",
 
-            //npm modules which will be used to process the css
+            //chain of npm modules to compile sass
             use: ["css-loader", "sass-loader", "postcss-loader"]
           })
         }

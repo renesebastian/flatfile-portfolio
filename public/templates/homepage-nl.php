@@ -4,7 +4,7 @@
         elements_selector: ".lazy"
     });
 </script>	
-<div class="container">
+<div class="container breakout">
     <h1 class="welcome"><?php echo $pageH1; ?></h1>
     <p class="lg m-b-3"><?php echo $pageContent; ?></p>
     <section>

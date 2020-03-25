@@ -29,18 +29,16 @@ Let's start with the basics:
 <link rel="apple-touch-icon" sizes="180x180" href="<?php echo cdnUrl; ?>assets/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="<?php echo cdnUrl; ?>assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="<?php echo cdnUrl; ?>assets/favicon-16x16.png">
-<link rel="manifest" href="<?php echo cdnUrl; ?>assets/site.webmanifest">
 <link rel="mask-icon" href="<?php echo cdnUrl; ?>assets/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
 <!-- css -->
-<link rel="stylesheet" type="text/css" href="<?php echo cdnUrl; ?>assets/css/reneio-20.css">
+<link rel="stylesheet" type="text/css" href="<?php echo cdnUrl; ?>assets/css/rene-io-20-<?php echo md5(lastUpdate) ?>.css">
 
 <!-- language alternates -->
 <?php if($canonicalUrl){ ?><link rel="canonical" href="<?php echo $canonicalUrl; ?>" /><?php } ?>
 <?php if($alternate){ echo $alternate; } ?> 
-
 
 <!-- structured data -->
 <?php if($pageStructuredData == 'default'){ ?>
@@ -96,7 +94,7 @@ Let's start with the basics:
 <meta property="og:title" content="<?php echo $metaTitle; ?>">
 <meta property="og:site_name" content="<?php echo siteName; ?>">
 <meta property="og:description" content="<?php echo $metaDescription; ?>">
-<meta property="og:image" content="<?php echo $metaImage; ?>">
+<meta property="og:image" content="<?php echo $metaImage; ?>" name="image">
 <?php if($canonicalUrl){ ?><meta property="og:url" content="<?php echo $canonicalUrl; ?>"><?php } ?>
 
 

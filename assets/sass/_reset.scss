@@ -1,0 +1,193 @@
+//default reset by meyer:
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+//rene.io overwrites:
+html,
+body {
+  height: 100%;
+}
+div {
+  display: block;
+}
+a {
+  color: map-get($colors, "link");
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: map-get($colors, "linkHover") !important;
+    text-decoration: underline;
+  }
+  &:visited {
+    color: map-get($colors, "link");
+  }
+  &:active {
+    color: map-get($colors, "linkActive");
+  }
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 1em;
+  word-wrap: break-word;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+}
+
+.m-b-0 {
+  margin-bottom: 0 !important;
+}
+.m-b-1 {
+  margin-bottom: $spacer !important;
+}
+.m-b-2 {
+  margin-bottom: $spacer * 2 !important;
+}
+.m-b-3 {
+  margin-bottom: $spacer * 3 !important;
+}
+.m-b-4 {
+  margin-bottom: $spacer * 4 !important;
+}
+
+.m-t-1 {
+  margin-top: $spacer !important;
+}
+.m-t-2 {
+  margin-top: $spacer * 2 !important;
+}
+.m-t-3 {
+  margin-top: $spacer * 3 !important;
+}
+.m-t-4 {
+  margin-top: $spacer * 4 !important;
+}

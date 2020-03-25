@@ -40,7 +40,7 @@ if($pageData = array_shift(array_filter($essentials->pages->page, function($e)
             if($page->metaTitle){ $metaTitle = $page->metaTitle; }
             if($page->metaKeywords){ $metaKeywords = $page->metaKeywords; }
             if($page->metaDescription){ $metaDescription = $page->metaDescription; }
-            if($page->metaImage){ $metaImage = $page->metaImage; }
+            if($page->metaImage){ $metaImage = cdnUrl.''.$page->metaImage; }
             if($page->h1){ $pageH1 = $page->h1; }
             if($page->content){ $pageContent = $page->content; }
             

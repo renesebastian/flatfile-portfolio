@@ -1,0 +1,44 @@
+//list usage on the homepage, need to switch this to flex-grid soon
+ul.projects {
+  display: block;
+  width: 100%;
+  margin: 0 -0.8rem;
+  padding: 0;
+  overflow: auto;
+
+  @media only screen and (max-width: 1080px) {
+    margin: 0;
+  }
+
+  li {
+    display: block;
+    width: 30%;
+    margin: 0 $spacer $spacer * 2 $spacer;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    a {
+      text-decoration: none !important;
+    }
+
+    h3 {
+      position: absolute;
+      bottom: $spacer;
+      left: $spacer;
+      color: white;
+      font-size: 16px;
+      font-weight: 300;
+      // text-transform: lowercase;
+    }
+
+    @media only screen and (max-width: 1180px) {
+      width: 46%;
+    }
+
+    @media only screen and (max-width: 1080px) {
+      width: 100%;
+      margin: 0 0 $spacer * 2;
+    }
+  }
+}
