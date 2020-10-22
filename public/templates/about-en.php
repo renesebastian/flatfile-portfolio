@@ -1,7 +1,7 @@
 <div class="container contentpage">
     <h1 class="m-b-1"><?php echo $pageH1; ?></h1>
     <figure>
-        <a href="//cdn.renesebastian.com/renesebastian.jpg" title="Rene Sebastian"><img src="//cdn.renesebastian.com/renesebastian_lr.jpg" srcset="//cdn.renesebastian.com/renesebastian_lr.jpg 1x, //cdn.renesebastian.com/renesebastian_@2x.jpg 2x" alt="Rene Sebastian" class="pull-right hidden-on-mobile"></a>
+        <a href="//cdn.renesebastian.com/renesebastian.jpg" target="_blank" title="Rene Sebastian"><img src="//cdn.renesebastian.com/renesebastian_lr.jpg" srcset="//cdn.renesebastian.com/renesebastian_lr.jpg 1x, //cdn.renesebastian.com/renesebastian_@2x.jpg 2x" alt="Rene Sebastian" class="pull-right hidden-on-mobile"></a>
         <figcaption class="hidden-on-mobile">photo by alexander schippers</figcaption>
     </figure>
     <p class="lg">Rene.io is the brand associated with the media production company by me, Rene Sebastian. Graduated on video and interaction design in 2007 and started my own company in 2009. At first with a heavy focus on concert photography. Around 2012 it all shifted towards video production for events, since I'd established a network in live events.</p>
@@ -46,15 +46,16 @@
     <ul>
         <li><strong><a href="https://www.airvuz.com/video/FPV-Video-of-the-Month---February-2020?id=5e6166eb3082837a992ee14e" target="_blank" rel="nofollow" title="Airvuz Video of the month February 2020">Airvuz video of the month</a></strong> for the Dutch Drone Gods Showreel - March 2020
         <li><strong><a href="https://www.drones.nl/nieuws/2018/12/winnaars-drone-awards-2018-bekend" target="_blank" rel="nofollow" title="Dutch Drone Award 2018">Dutch Drone Award</a></strong> - December 2018
-        <li><strong>Third place in Best Aftermovies</strong> by Festileaks - November 2018
+        <li><strong>Third place in Best Aftermovies for <a href="/video/wea-weekender-2018" target="_blank" title="We Are Electric 2018 aftermovie">We Are Electric 2018</a></strong> by Festileaks - November 2018
+        <li><strong><a href="https://www.airvuz.com/collection/6th-annual-new-york-city-drone-film-festival---showreel?id=r1WrgsCHU" target="_blank" rel="nofollow" title="New York City Drone Film Festival - Showreel nominee">2020 New York City Drone Film Festival nominee in category showreel</a></strong> with Dutch Drone Gods
     </ul>
 
     <h2 class="m-t-4 m-b-1">If you are really interessted</h2>
-    <p><strong>I shoot most of my videos and photos with:</strong><br />The Panasonic GH5, Sony FS7, Leica CL, Mamiya 645, Canon A1 and Rico 500G</p>
+    <p><strong>I shoot most of my videos and photos with:</strong><br />Black Magic Pocket Camera 4K, Panasonic GH5, Sony FS7, Leica CL, Mamiya 645, Canon A1, Rico 500G and Olympus Mju II</p>
 
-    <p><strong>On a daily base I work with:</strong><br />Final Cut Pro X, Sketch, Visual Studio Code, Adobe Photoshop, Adobe Lightroom Classic, Slack, Trello, Github, Terminal, on Mac OSX.</p>
+    <p><strong>On a daily base I work with:</strong><br />Davinci Resolve, Final Cut Pro X, Sketch, Visual Studio Code, Adobe Photoshop, Adobe Lightroom Classic, Notion, Slack, Trello, Github, Terminal, on Mac OSX.</p>
 
-    <p><strong>I regularly work with:</strong><br />Logic Pro X, OBS, Davinci Resolve, Adobe Premiere Pro,  Adobe Indesign, Mailchimp,  Mandrill, Adobe Illustrator. </p>
+    <p><strong>I know my way around in:</strong><br />Logic Pro X, OBS, Adobe Premiere Pro,  Adobe Indesign, Mailchimp,  Mandrill, Adobe Illustrator. </p>
 
     <p>I realize front-end prototypes with Pug, Handlebars, Sass, Stylus and complile it all with Webpack. Basic knowledge of Zend Framework 2, Vue.js, Npm, Nuxt, Node and Docker. I'm a bit rusty on backend development, but you can checkout my <a href="https://www.github.com/renesebastian" target="_blank" title="Rene Sebastian on Github">github profile</a> if you want.</p>
     

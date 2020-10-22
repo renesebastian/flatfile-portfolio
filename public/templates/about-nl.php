@@ -1,7 +1,7 @@
 <div class="container contentpage">
     <h1 class="m-b-1"><?php echo $pageH1; ?></h1>
     <figure>
-        <a href="//cdn.renesebastian.com/renesebastian.jpg" title="Rene Sebastian"><img src="//cdn.renesebastian.com/renesebastian_lr.jpg" srcset="//cdn.renesebastian.com/renesebastian_lr.jpg 1x, //cdn.renesebastian.com/renesebastian_@2x.jpg 2x" alt="Rene Sebastian" class="pull-right hidden-on-mobile"></a>
+        <a href="//cdn.renesebastian.com/renesebastian.jpg" target="_blank" title="Rene Sebastian"><img src="//cdn.renesebastian.com/renesebastian_lr.jpg" srcset="//cdn.renesebastian.com/renesebastian_lr.jpg 1x, //cdn.renesebastian.com/renesebastian_@2x.jpg 2x" alt="Rene Sebastian" class="pull-right hidden-on-mobile"></a>
         <figcaption class="hidden-on-mobile">foto door alexander schippers</figcaption>
     </figure>
     <p class="lg">Afgestudeerd op video en interactiedesign in 2007 en vervolgens in 2009 gestart met m'n productiebedrijf <u>Rene.io</u> wat je mogelijk bekender klinkt! In het begin vooral gefocussed op concert fotografie, welke vanaf 2012 verbreed werd richting het produceren van videos voor- en van evenementen. </p>
@@ -10,9 +10,19 @@
     <h2 class="m-t-4 m-b-1">Publicaties & interviews</h2>
     <ul class="lg">
         <li>
+            <h3 class="h4 m-b-0">Wintersport Magazine #48 -  2020</h3>
+            <p>Drie spreads tellend artikel (tekst en beeld) over de Jungfrau Region in Berner Oberland, Zwitserland. Buiten deze artikelen werden er nog 2 afleveringen van de Snow Show opgenomen.<br />
+            <a href="//cdn.renesebastian.com/publications/wintersportmagazine_48_renesebastian.pdf" target="_blank" title="Rene Sebastian - Wintersport Magazine 47">download als pdf</a></p>
+        </li>
+        <li>
+            <h3 class="h4 m-b-0">Wintersport Magazine #47 -  2020</h3>
+            <p>Drie artikelen verspreid over het magazine waaronder een uitgebreide citytrip naar Innsbruck, een rondreis door het Zwitserse Wallis en foto's bij een artikel over wintersport in Nederland.<br />
+            <a href="//cdn.renesebastian.com/publications/wintersportmagazine_47_renesebastian.pdf" target="_blank" title="Rene Sebastian - Wintersport Magazine 47">download als pdf</a></p>
+        </li>
+        <li>
             <h3 class="h4 m-b-0">Wintersport Magazine #45 -  2019</h3>
             <p>Vier spreads tellend artikel over een aantal skigebieden in het Italiaanse Süd Tirol. Tijdens een 2 weken durende roadtrip door de Italiaanse Dolomieten zijn er 8 videos geproduceerd waarbij dit artikel als slotstuk werd geplaatst in het magazine.<br />
-            <a href="//cdn.renesebastian.com/publications/wintersportmagazine_45_renesebastian.pdf" target="_blank" title="Rene Sebastian - Wintersport Magazine">download als pdf</a></p>
+            <a href="//cdn.renesebastian.com/publications/wintersportmagazine_45_renesebastian.pdf" target="_blank" title="Rene Sebastian - Wintersport Magazine 45">download als pdf</a></p>
         </li>
         <li>
             <h4 class="m-b-0">AV Entertainment #5 - 2019</h4>
@@ -40,15 +50,16 @@
     <ul>
     <li><strong><a href="https://www.airvuz.com/video/FPV-Video-of-the-Month---February-2020?id=5e6166eb3082837a992ee14e" target="_blank" rel="nofollow" title="Airvuz Video of the month Februari 2020">Airvuz video of the month</a></strong> voor de Dutch Drone Gods Showreel - Maart 2020
         <li><strong><a href="https://www.drones.nl/nieuws/2018/12/winnaars-drone-awards-2018-bekend" target="_blank" rel="nofollow" title="Drone Award 2018">Dutch Drone Award</a></strong> - December 2018
-        <li><strong>Derde plaats in Best Aftermovies</strong> door Festileaks - November 2018
+        <li><strong>Derde plaats in Best Aftermovies voor <a href="/video/wea-weekender-2018" target="_blank" title="We Are Electric 2018 aftermovie">We Are Electric 2018</a></strong> door Festileaks - November 2018
+        <li><strong><a href="https://www.airvuz.com/collection/6th-annual-new-york-city-drone-film-festival---showreel?id=r1WrgsCHU" target="_blank" rel="nofollow" title="New York City Drone Film Festival - Showreel nominee">2020 New York City Drone Film Festival nominatie in categorie showreel</a></strong> met Dutch Drone Gods
     </ul>
 
     <h2 class="m-t-4 m-b-1">Mocht je geïnteresseerd zijn</h2>
-    <p><strong>Ik schiet het grootste deel van m'n video's en foto's met:</strong><br /> Panasonic GH5, Sony FS7, Leica CL, Mamiya 645, Rico 500G, Canon A1 en de Olympus Mju II</p>
+    <p><strong>Ik schiet het grootste deel van m'n video's en foto's met:</strong><br />Black Magic Pocket Camera 4K, Panasonic GH5, Sony FS7, Leica CL, Mamiya 645, Rico 500G, Canon A1 en de Olympus Mju II</p>
 
-    <p><strong>Dagelijks werk ik veel met:</strong><br />Final Cut Pro X, Sketch, Visual Studio Code, Adobe Photoshop, Adobe Lightroom Classic, Slack, Trello, Github, Terminal, op Mac OSX.</p>
+    <p><strong>Dagelijks werk ik veel met:</strong><br />Davinci Resolve, Final Cut Pro X, Sketch, Visual Studio Code, Adobe Photoshop, Adobe Lightroom Classic, Notion, Slack, Trello, Github, Terminal, op Mac OSX.</p>
 
-    <p><strong>Ik werk regelmatig met:</strong><br />Logic Pro X, OBS, Davinci Resolve, Adobe Premiere Pro, Adobe Indesign, Mailchimp,  Mandrill en Adobe Illustrator.</p>
+    <p><strong>Ik werk regelmatig met:</strong><br />Logic Pro X, OBS, Adobe Premiere Pro, Adobe Indesign, Mailchimp,  Mandrill en Adobe Illustrator.</p>
 
     <p>Front-end prototypes verwezelijk ik met Pug, Handlebars, Sass, Stylus en compile het met Webpack. Basis kennis van Zend Framework 2, Vue.js, Npm, Nuxt, Node en Docker. Ik ben wat roestig in back-end development, maar kijk gerust op m'n <a href="https://www.github.com/renesebastian" target="_blank" title="Rene Sebastian on Github">github profiel</a> als je wil! Oh, tabs over spaces 🤓</p>
 
