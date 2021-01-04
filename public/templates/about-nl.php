@@ -48,10 +48,10 @@
 
     <h2 class="m-t-4 m-b-1">Awards</h2>
     <ul>
-    <li><strong><a href="https://www.airvuz.com/video/FPV-Video-of-the-Month---February-2020?id=5e6166eb3082837a992ee14e" target="_blank" rel="nofollow" title="Airvuz Video of the month Februari 2020">Airvuz video of the month</a></strong> voor de Dutch Drone Gods Showreel - Maart 2020
         <li><strong><a href="https://www.drones.nl/nieuws/2018/12/winnaars-drone-awards-2018-bekend" target="_blank" rel="nofollow" title="Drone Award 2018">Dutch Drone Award</a></strong> - December 2018
+        <li><strong><a href="https://www.airvuz.com/video/FPV-Video-of-the-Month---February-2020?id=5e6166eb3082837a992ee14e" target="_blank" rel="nofollow" title="Airvuz Video of the month Februari 2020">Airvuz video of the month</a></strong> voor de Dutch Drone Gods Showreel - Maart 2020
         <li><strong>Derde plaats in Best Aftermovies voor <a href="/video/wea-weekender-2018" target="_blank" title="We Are Electric 2018 aftermovie">We Are Electric 2018</a></strong> door Festileaks - November 2018
-        <li><strong><a href="https://www.airvuz.com/collection/6th-annual-new-york-city-drone-film-festival---showreel?id=r1WrgsCHU" target="_blank" rel="nofollow" title="New York City Drone Film Festival - Showreel nominee">2020 New York City Drone Film Festival nominatie in categorie showreel</a></strong> met Dutch Drone Gods
+        <li class="m-t-1"><strong><a href="https://www.airvuz.com/collection/6th-annual-new-york-city-drone-film-festival---showreel?id=r1WrgsCHU" target="_blank" rel="nofollow" title="New York City Drone Film Festival - Showreel nominee">2020 New York City Drone Film Festival nominatie</a></strong> in categorie showreel met Dutch Drone Gods
     </ul>
 
     <h2 class="m-t-4 m-b-1">Mocht je geïnteresseerd zijn</h2>
