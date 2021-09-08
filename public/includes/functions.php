@@ -30,28 +30,30 @@
         echo '</ul>';
     }
 
-    //Yes thats right. This is some super duper nasty shit echo'ing in a function. Sorry 🤷🏻‍♂️
-    function videoLooop($limit = 100){
+    function videoLooop($type,$limit = 100){
+        
         $jsonVideos = file_get_contents(cdnUrl.'data/videos.json'); 
         $videoLoop = json_decode($jsonVideos);
         
         echo '<ul class="projects">';
         
         foreach($videoLoop->videos->video as $videoData){
-            foreach($videoData->languages->language as $video){
-                if($video->lang == siteLang  && $video->public == true){
-                    if (++$loop < $limit) {
-                    ?>
-                        <li>
-                            <a href="/<?php echo siteVideoSlug.'/'.$videoData->slug; ?>" title="<?php echo $video->title; ?>">
-                                <div class="aspect-lock">
-                                    <img class="ratio" src="//i.vimeocdn.com/video/<?php echo $videoData->thumbid; ?>_640.jpg">
-                                    <div class="overlay play"></div>
-                                    <h3><?php if($video->category){ echo $video->category.': '; } echo $video->title; ?></h3>
-                                </div>
-                            </a>
-                        </li>
-                    <?php
+            if($videoData->type == $type){
+                foreach($videoData->languages->language as $video){
+                    if($video->lang == siteLang  && $video->public == true){
+                        if (++$loop < $limit) {
+                        ?>
+                            <li>
+                                <a href="/<?php echo siteVideoSlug.'/'.$videoData->slug; ?>" title="<?php echo $video->title; ?>">
+                                    <div class="aspect-lock">
+                                        <img class="ratio" src="//i.vimeocdn.com/video/<?php echo $videoData->thumbid; ?>_640.jpg" alt="<?php echo $video->title; ?>" title="<?php echo $video->title; ?>">
+                                        <div class="overlay play"></div>
+                                        <h3><?php if($video->category){ echo $video->category.': '; } echo $video->title; ?></h3>
+                                    </div>
+                                </a>
+                            </li>
+                        <?php
+                        }
                     }
                 }
             }
