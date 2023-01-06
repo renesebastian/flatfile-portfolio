@@ -9,7 +9,7 @@
     "install": "docker-compose build"
   },
   "devDependencies": {
-    "webpack": "^3.11.0",
+    "webpack": "^5.75.0",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.11",
     "style-loader": "^0.20.3",
